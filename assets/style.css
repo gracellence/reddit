@@ -90,9 +90,17 @@ input {
 }
 
 .searchbox {
-    width: 500px;
+    width: 400px;
+    height: 28px;
+    padding: 10px;
+    position: relative;
+    top: -8px;
 }
 
+.check input {
+    position: relative;
+    top: 10px;
+}
 
 /* Top Right Area */
 
@@ -100,12 +108,18 @@ input {
     position: absolute;
     right: 0px;
     top: 0px;
+}
 
+#signinbox {
+    margin-top: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 10px;
+    width: 160px;
 }
 
 #username{
     display: inline-block;
-
 }
 
 #password{
@@ -114,40 +128,59 @@ input {
 
 #remember-me-area{
     display: block;
+    margin-top: 8px;
+    margin-left: -3px;
 }
 
-#checkbox{
+#checkbox {
     display: inline-block;
 }
 
-#remember-me{
-    display: inline-block;
+#check {
+    height: 14px;
+    margin-left: 30px;
 }
-#signin-buttons{
+
+#remember-me {
+    font-size: 12px;
     display: inline-block;
 }
 
-#Login{
+#signin-buttons {
+    display: inline-block;
+}
 
+
+#Sign-Up {
+   font-size: 12px;
     color: white;
     background: slategray;
-    padding: 4px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 8px;
     display: inline-block;
+    width: 80px;
+    text-align: center;
+    margin-left: 15px;
+    position: relative;
 }
-#Sign-Up{
+
+#Login {
+   font-size: 12px;
     color: white;
     background: slategray;
-    padding: 4px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 8px;
     display: inline-block;
+    width: 80px;
+    text-align: center;
+    margin-left: 110px;
+    position: absolute;
 }
 
 .button:hover{
-    -webkit-filter: invert(100%);
-    transition: 0.5s;
+    -webkit-filter: invert(20%);
+    transition: 0.3s;
     cursor: pointer;
-
 }
 
 /*Side bar*/
@@ -156,33 +189,26 @@ input {
     width: 100px;
 }
 
+.topics{
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
 .topics:hover{
-    transition: 0.5s;
+    transition: 0.2s;
     cursor: pointer;
     background: slategray;
     color: lightskyblue;
     padding: 5px;
 }
+
 #submit-area{
     display: inline-block;
 }
 
 #submit-title{
     display: block;
-
-}
-.submit-hover:hover{
-    transition: 0.5s;
-    cursor: pointer;
-    background: slategray;
-    color: lightskyblue;
-    padding: 5px;
-
-}
-
-#submit-text{
-    display: inline-block;
-}
-#submit-link{
-    display: inline-block;
 }

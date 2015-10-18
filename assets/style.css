@@ -1,0 +1,178 @@
+body {  /*the outer layer of the site and global style attributes*/
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 0px;
+background: #f7f5f2;
+}
+
+/* Utility Stylesheets */
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+.clear {
+clear: both;
+}
+
+.img-scaled {
+width: 100%;
+}
+
+
+/* INDEX */
+
+.page {
+    background: white;
+    padding: 18px;
+    font-size: 12px;
+    margin-bottom: 6px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: 700;
+    color: #4a4a4a;
+    cursor: pointer;
+}
+#index {
+    width: 240px;
+    position: absolute;
+    left: calc(50% - 120px);
+    top: calc(50% - 206px);
+}
+/* Top Left Area */
+
+#homepage {
+height: 2400px;
+position: absolute;
+width: 100%;
+
+}
+#home-topbar {
+padding: 10px 0px;
+background: lightskyblue;
+position: relative;
+height: 70px;
+
+
+
+}
+
+#home-topbar-text {
+color: white;
+padding: 0px 30px;
+font-size: 12px;
+font-weight: 700;
+line-height: 30px;
+
+
+}
+#reddit-icon{
+    display: inline-block;
+}
+#search-bar-area{
+    display: inline-block;
+}
+
+#just-search-bar{
+    display: inline-block;
+}
+
+#search-bar{
+    display: inline-block;
+}
+#search-icon{
+    display: inline-block;
+}
+
+/* Top Right Area */
+
+#sign-in-area {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+
+#username{
+    display: inline-block;
+
+}
+
+#password{
+    display: inline-block;
+}
+
+#remember-me-area{
+    display: block;
+}
+
+#checkbox{
+    display: inline-block;
+}
+
+#remember-me{
+    display: inline-block;
+}
+#signin-buttons{
+    display: inline-block;
+}
+
+#Login{
+
+    color: white;
+    background: slategray;
+    padding: 4px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#Sign-Up{
+    color: white;
+    background: slategray;
+    padding: 4px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.button:hover{
+    -webkit-filter: invert(100%);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+/*Side bar*/
+
+#home-sidebar{
+    width: 100px;
+}
+
+.topics:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background: slategray;
+    color: lightskyblue;
+    padding: 5px;
+}
+#submit-area{
+    display: inline-block;
+}
+
+#submit-title{
+    display: block;
+
+}
+.submit-hover:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background: slategray;
+    color: lightskyblue;
+    padding: 5px;
+
+}
+
+#submit-text{
+    display: inline-block;
+}
+#submit-link{
+    display: inline-block;
+}

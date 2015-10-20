@@ -53,7 +53,8 @@ padding: 10px 0px;
 background: lightskyblue;
 position: relative;
 height: 70px;
-
+top: -11px;
+left:-8px;
 
 
 }
@@ -64,6 +65,7 @@ padding: 0px 30px;
 font-size: 12px;
 font-weight: 700;
 line-height: 30px;
+position: relative;
 
 
 }
@@ -97,7 +99,7 @@ input {
     height: 28px;
     padding: 10px;
     position: relative;
-    top: -8px;
+    top: -12px;
 }
 
 .check input {
@@ -200,7 +202,6 @@ input {
     font-family: Lato;
     font-size: 20px;
     line-height: 40px;
-    margin-left: 20px;
     padding: 5px;
 }
 
@@ -214,14 +215,35 @@ input {
 }
 #submit-area{
     display: inline-block;
+    background: slategray;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#submit-side-text{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Lato;
+    font-size: 20px;
 }
 
 #submit-title{
     display: block;
 
 }
+
+#side-icon-area{
+    text-align: center;
+}
+
+.icon{
+    padding: 2px;
+}
+
 .icon:hover{
-    transition: 0.5s;
+    transition: 0.2s;
     cursor: pointer;
     background: slategray;
     color: lightskyblue;

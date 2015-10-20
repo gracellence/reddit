@@ -1,3 +1,4 @@
+@@ -0,0 +1,178 @@
 body {  /*the outer layer of the site and global style attributes*/
 font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 margin: 0px;
@@ -45,13 +46,16 @@ width: 100%;
 height: 2400px;
 position: absolute;
 width: 100%;
-}
 
+}
 #home-topbar {
 padding: 10px 0px;
 background: lightskyblue;
 position: relative;
 height: 70px;
+
+
+
 }
 
 #home-topbar-text {
@@ -78,7 +82,6 @@ line-height: 30px;
     display: inline-block;
     margin-left: -72px;
 }
-
 #search-icon{
     display: inline-block;
 }
@@ -102,12 +105,16 @@ input {
     top: 10px;
 }
 
+
+
+
 /* Top Right Area */
 
 #sign-in-area {
     position: absolute;
     right: 0px;
     top: 0px;
+
 }
 
 #signinbox {
@@ -120,6 +127,7 @@ input {
 
 #username{
     display: inline-block;
+
 }
 
 #password{
@@ -132,7 +140,7 @@ input {
     margin-left: -3px;
 }
 
-#checkbox {
+#checkbox{
     display: inline-block;
 }
 
@@ -144,15 +152,26 @@ input {
 #remember-me {
     font-size: 12px;
     display: inline-block;
-}
 
-#signin-buttons {
+}
+#signin-buttons{
     display: inline-block;
 }
 
-
-#Sign-Up {
-   font-size: 12px;
+#Login{
+    font-size: 12px;
+    color: white;
+    background: slategray;
+    padding: 5px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    margin-left: 110px;
+    position: absolute;
+}
+#Sign-Up{
+    font-size: 12px;
     color: white;
     background: slategray;
     padding: 5px;
@@ -164,23 +183,11 @@ input {
     position: relative;
 }
 
-#Login {
-   font-size: 12px;
-    color: white;
-    background: slategray;
-    padding: 5px;
-    border-radius: 8px;
-    display: inline-block;
-    width: 80px;
-    text-align: center;
-    margin-left: 110px;
-    position: absolute;
-}
-
 .button:hover{
     -webkit-filter: invert(20%);
     transition: 0.3s;
     cursor: pointer;
+
 }
 
 /*Side bar*/
@@ -197,6 +204,7 @@ input {
     padding: 5px;
 }
 
+
 .topics:hover{
     transition: 0.2s;
     cursor: pointer;
@@ -204,11 +212,26 @@ input {
     color: lightskyblue;
     padding: 5px;
 }
-
 #submit-area{
     display: inline-block;
 }
 
 #submit-title{
     display: block;
+
+}
+.icon:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background: slategray;
+    color: lightskyblue;
+    padding: 5px;
+
+}
+
+#submit-text{
+    display: inline-block;
+}
+#submit-link{
+    display: inline-block;
 }

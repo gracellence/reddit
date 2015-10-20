@@ -49,11 +49,11 @@ width: 100%;
 
 }
 #home-topbar {
-padding: 10px 0px;
+padding: 10px 10px;
 background: lightskyblue;
 position: relative;
 height: 70px;
-top: -11px;
+top: -10px;
 left:-8px;
 
 
@@ -66,6 +66,7 @@ font-size: 12px;
 font-weight: 700;
 line-height: 30px;
 position: relative;
+margin-left: 8px;
 
 
 }
@@ -83,9 +84,23 @@ position: relative;
 #search-bar{
     display: inline-block;
     margin-left: -72px;
+    position:relative;
+    z-index: 1;
 }
 #search-icon{
     display: inline-block;
+    margin-left: -30px;
+    top: -4px;
+    position:relative;
+    z-index: 2;
+}
+
+#search-icon:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    background: slategray;
+    color: lightskyblue;
+
 }
 
 input {
@@ -125,39 +140,46 @@ input {
     display: inline-block;
     padding: 10px;
     width: 160px;
+    position: relative;
 }
 
 #username{
     display: inline-block;
-
+    position: relative;
 }
 
 #password{
     display: inline-block;
+    position: relative;
 }
 
 #remember-me-area{
     display: block;
     margin-top: 8px;
     margin-left: -3px;
+    position: relative;
 }
 
 #checkbox{
     display: inline-block;
+    position: relative;
 }
 
 #check {
     height: 14px;
     margin-left: 30px;
+    position: relative;
 }
 
 #remember-me {
     font-size: 12px;
     display: inline-block;
+    position: relative;
 
 }
 #signin-buttons{
     display: inline-block;
+    position: relative;
 }
 
 #Login{
@@ -215,18 +237,20 @@ input {
 }
 #submit-area{
     display: inline-block;
-    background: slategray;
-    padding: 10px;
-    border-radius: 8px;
-    margin-top: 20px;
+    
 }
 
 #submit-side-text{
     color: white;
     text-align: center;
-    padding-bottom: 10px;
     font-family: Lato;
     font-size: 20px;
+    display: absolute;
+    background: slategray;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 
 #submit-title{
@@ -236,6 +260,7 @@ input {
 
 #side-icon-area{
     text-align: center;
+    margin-top: -45px;
 }
 
 .icon{

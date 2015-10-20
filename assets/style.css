@@ -55,7 +55,6 @@ position: relative;
 height: 70px;
 top: -10px;
 left:-8px;
-display: block;
 
 
 }
@@ -75,6 +74,7 @@ margin-left: 8px;
     display: inline-block;
 }
 #search-bar-area{
+    position: absolute;
     display: inline-block;
 }
 
@@ -85,6 +85,7 @@ margin-left: 8px;
 #search-bar{
     display: inline-block;
     margin-left: -72px;
+    margin-top: 40px;
     position:relative;
     z-index: 1;
     font-family: Lato;
@@ -221,13 +222,21 @@ input {
 
 }
 
+/*Home Contents*/
+
+#home-contents{
+    float: left;
+}
+
 /*Side bar*/
 
 #home-sidebar{
     width: 100px;
     position: relative;
     display: block;
-    background: lightcoral;
+    margin-bottom: 50px;
+    padding-bottom: 20px;/*optional*/
+
 }
 
 .topics{
@@ -254,23 +263,23 @@ input {
     text-align: center;
     font-family: Lato;
     font-size: 20px;
-    display: absolute;
     background: slategray;
     padding: 10px;
     padding-bottom: 50px;
     border-radius: 8px;
     margin-top: 20px;
-    position: relative;
+
 }
 
 #submit-title{
-
+    
 }
 
 #side-icon-area{
     text-align: center;
     margin-top: -45px;
-    position: relative;
+
+
 }
 
 .icon{
@@ -295,16 +304,173 @@ input {
 
 #post-area{
     display: inline-block;
-    position: relative;
+    display: absolute;
+    width: 100%;
+
 }
 
 .individual-post{
     display: inline-block;
     position: relative;
     transparency: 90%;
-    background: lightskyblue;
+
+    width: 100%;
+
+}
+
+.arrows-area{
+    background:white;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    padding: 5px
 }
 
 .arrow-icon{
     display: inline-block;
+    z-index: 1;
 }
+
+.views{
+    display: inline-block;
+    margin-top: -50px;
+    color: darkslategray;
+    font-family: Lato;
+    font-size: 20px;
+    z-index: 2;
+
+}
+
+.individual-post-area-without-arrows{
+
+    display: inline-block;
+    margin-bottom: -50px;
+ 
+
+
+}
+
+.picture-area{
+    display: inline-block;
+}
+
+
+
+.picture{
+    position: relative;
+    z-index: 1;
+}
+
+.ranking{
+    float: left;
+    color: white;
+    position: relative;
+    font-family: Lato;
+    font-size: 20px;
+    z-index: 2;
+    background: black;
+    padding: 4px 9px;
+    margin-top: -200px;
+    
+}
+
+.without-arrows-or-picture-area{
+    float:right;
+    position: relative;
+}
+
+.post-title-area{
+    position: relative;
+    display: inline-block;
+    background: slategray;
+    color: white;
+    width: 100%;
+    width: 300
+}
+
+.description-area{
+    display: block;
+}
+
+.post-title{
+    position: relative;
+    font-family: Lato;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.post-title:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    color: lightskyblue;
+    font-size: 20px;
+
+}
+
+.more-text{
+    position: relative;
+    font-family: Lato;
+    font-size: 15px;
+    text-align: right;
+    padding: 5px;
+}
+
+.more-text:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    background: slategray;
+    color: lightskyblue;
+    padding: 5px;
+}
+
+.submit-time{
+    color: slategray;
+    font-family: Lato;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.comments-area{
+
+    margin-top: 82px;
+}
+
+.see-comments-text{
+    color: slategray;
+    font-family: Lato;
+    font-size: 15px;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.comments-bubble{
+    display: inline-block;
+    text-align: center;
+    background: white;
+    position: relative;
+}
+
+.comments-bubble-icon{
+    z-index: 1;
+    position: relative;
+}
+
+.comments-number{
+    position: relative;
+    color: lightskyblue;
+    font-family: Lato;
+    font-size: 14px;
+    margin-top: -18px;
+    z-index: 2;
+}
+
+.share-icon{
+    display: inline-block;
+    margin-left: 130px;
+    position: relative;
+}
+

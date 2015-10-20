@@ -55,6 +55,7 @@ position: relative;
 height: 70px;
 top: -10px;
 left:-8px;
+display: block;
 
 
 }
@@ -86,6 +87,7 @@ margin-left: 8px;
     margin-left: -72px;
     position:relative;
     z-index: 1;
+    font-family: Lato;
 }
 #search-icon{
     display: inline-block;
@@ -144,11 +146,13 @@ input {
 }
 
 #username{
+    font-family: Lato;
     display: inline-block;
     position: relative;
 }
 
 #password{
+    font-family: Lato;
     display: inline-block;
     position: relative;
 }
@@ -172,6 +176,7 @@ input {
 }
 
 #remember-me {
+    font-family: Lato;
     font-size: 12px;
     display: inline-block;
     position: relative;
@@ -183,6 +188,7 @@ input {
 }
 
 #Login{
+    font-family: Lato;
     font-size: 12px;
     color: white;
     background: slategray;
@@ -195,6 +201,7 @@ input {
     position: absolute;
 }
 #Sign-Up{
+    font-family: Lato;
     font-size: 12px;
     color: white;
     background: slategray;
@@ -218,6 +225,9 @@ input {
 
 #home-sidebar{
     width: 100px;
+    position: relative;
+    display: block;
+    background: lightcoral;
 }
 
 .topics{
@@ -236,7 +246,6 @@ input {
     padding: 5px;
 }
 #submit-area{
-    display: inline-block;
     
 }
 
@@ -251,16 +260,17 @@ input {
     padding-bottom: 50px;
     border-radius: 8px;
     margin-top: 20px;
+    position: relative;
 }
 
 #submit-title{
-    display: block;
 
 }
 
 #side-icon-area{
     text-align: center;
     margin-top: -45px;
+    position: relative;
 }
 
 .icon{
@@ -280,5 +290,21 @@ input {
     display: inline-block;
 }
 #submit-link{
+    display: inline-block;
+}
+
+#post-area{
+    display: inline-block;
+    position: relative;
+}
+
+.individual-post{
+    display: inline-block;
+    position: relative;
+    transparency: 90%;
+    background: lightskyblue;
+}
+
+.arrow-icon{
     display: inline-block;
 }
